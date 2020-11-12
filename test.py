@@ -1,4 +1,7 @@
 """main"""
 def main():
   print('Say Hi')
- main()
+def test():
+  print('It work!!)
+main()
+test()
