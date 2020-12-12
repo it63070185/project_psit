@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background: #047af0;
+    background-image: url('../img/bg1.png')
 }
 .box{
     width: 300px;
