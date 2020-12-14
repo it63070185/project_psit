@@ -10,14 +10,20 @@
 </head>
 <body>
 
-    <div class="menubar">
+    <div class="menubar-d">
         <div class="container-d">
             <div class="logo">
                 <h1>MY DIARY</h1>
             </div>
-            <ul class="menu">
+            <ul class="menu-d">
                 <li>
                     <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -26,6 +32,11 @@
 
     </div>
     <div class="container">
+        <div>
+            <h2><?php 
+                 echo $_POST['name'];
+                ?>'s Diary</h2>
+        </div>
         <div class="header">
             <div class="clear">
                 <i class="fa fa-refresh"></i>
