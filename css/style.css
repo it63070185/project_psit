@@ -10,15 +10,20 @@ body{
     width:400px;
     margin:0 auto;
 }
-
+.container h2{
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 5px 6px rgba(0, 0, 0, 0.65);
+}
 /* ------------ header ------------ */
 .header{
     width: 400px;
-    height:150px;
+    height:170px;
     background-image: url('../img/bg2.png');
-    background-size: 100% 200%;
+    background-size: 170% 300%;
     background-repeat: no-repeat;
-    border-radius: 15px 15px 0 0;
+    border-radius: 50px 50px 0 0;
     position: relative;
     
 }
@@ -40,37 +45,42 @@ body{
 }
 #date{
     position: absolute;
-    bottom: 45px;
+    bottom: 25px;
     left: 10px;
     color: #FFF;
     font-size: 25px;
     font-family: 'Titillium Web', sans-serif;
 }
-
+#date:hover{
+    font-size: 26px;
+    text-shadow: 10px 5px 6px rgba(0, 0, 0, 0.65);
+}
 /* ------------ content ------------ */
 .content{
     width:400px;
-    height: 380px;
+    height: 360px;
     max-height:400px;
     background-color: rgb(255, 255, 255);
     overflow: auto;
+    transition: all 0.5s ease;
 }
 .content::-webkit-scrollbar { 
     display: none; 
 }
 .content ul{
     padding:0;
-    margin:0;
+    margin:10px;
 }
 .item{
     width:380px;
-    height: 45px;
+    height: 50px;
     min-height: 45px;
     position: relative;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-top: 10px;
 }
 .item i.co{
     position: absolute;
@@ -92,7 +102,7 @@ body{
     margin:0;
     font-size: 20px;
     left:50px;
-    top:5px;
+    top:10px;
     background-color: #FFF;
     max-width:285px;
 }
@@ -116,7 +126,7 @@ body{
     width: 380px;
     height:40px;
     background-color: #FFF;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 50px 50px;
     padding: 10px;
     border-top: 1px solid rgba(0,0,0,0.1);
 }
@@ -165,34 +175,34 @@ body{
     width: 960px;
     margin: 0 auto;
 }
-.menubar{
+.menubar-d{
     width: 100%;
     height: 50px;
     color: white;
     background:#333;
     box-shadow: 0 0 20px rgb(8, 8, 8);
 }
-.menubar .logo{
+.menubar-d .logo{
     float: left;
 }
 
-.menubar h1{
+.menubar-d h1{
     margin: 0;
     font-size: 24px;
     font-weight: normal;
     padding-top: 10px;
 }
-.menubar ul.menu {
+.menubar-d ul.menu-d {
     list-style: none;
     float: right;
 }
 
-.menubar ul.menu li {
+.menubar-d ul.menu-d li {
     float: left;
     margin-right: 20px;
 }
 
-.menubar ul.menu li a {
+.menubar-d ul.menu-d li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-bottom: 2px solid transparent;
@@ -200,7 +210,7 @@ body{
     transition: all 0.5s ease;
 }
 
-.menubar ul.menu li a:hover {
+.menubar-d ul.menu-d li a:hover {
     border-bottom: 2px solid rgb(255, 255, 255);
     padding-bottom: 0px;
 }
@@ -213,8 +223,39 @@ body{
     border: 2px solid #4162f6;
 }
 
-
-
+.member {
+    width: auto;
+    height: 20px;
+    text-align: center;
+    padding: 60px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 10px 5px 6px rgba(0, 0, 0, 0.65);
+    color: white;
+    transition: all 1s ease;
+}
+.image {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.image li{
+    margin-left: 35px;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    transition: all 1s ease;
+}
+.box {
+    width: 800px;
+    height: 180px;
+    padding: 80px;
+    margin-left: 300px;
+    background: #333;
+    text-align: center;
+    border-radius: 100px;
+    color: white;
+    transition: all 1s ease;
+}
 
 
 
