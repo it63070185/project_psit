@@ -1,2 +1,2 @@
 link project:
-http://www.it.kmitl.ac.th/~it63070185/APP.php
+http://www.it.kmitl.ac.th/~it63070185/index.html
